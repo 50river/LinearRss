@@ -1,0 +1,157 @@
+/**
+ * CSS for MOLA 2.0
+ */
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ededed;
+}
+
+
+
+.nav {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.nav > li > a {
+    margin: 10px 10px;
+    padding: 8px 8px;
+    background-color: #444;
+    -webkit-border-radius: 17px;  
+    border-radius: 17px;
+    border: 2px solid #fff;
+}
+
+.nav > li > a:hover {
+    background-color: #222;
+}
+
+.dropup .dropdown-menu {
+    bottom: 0px;
+    left: 50px;
+}
+
+
+
+#main-background {
+    margin: 0px auto 0px;
+    width: 85%;
+    background-color: #ffffff;
+}
+
+#main {
+    width: 95%;
+}
+
+.feed-title-small {
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.feed-date-small {
+    color: #444444;
+    font-size: small;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+}
+
+.feed-content-small {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: small;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+}
+
+.feed-title-large {
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.feed-date-large {
+    color: #444444;
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+}
+
+.feed-content-large {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: medium;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+}
+
+.feed-link {
+    padding: 5px 20px 5px;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: 0.3em;
+}
+
+
+
+/**
+ * Common
+ * style class
+ */
+.block {
+    display: block;
+}
+
+.small {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-small;
+}
+
+.xLarge {
+    font-size: x-large;
+}
+
+.xxLarge {
+    font-size: xx-large;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.noDisplay {
+    display: none;
+}
